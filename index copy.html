@@ -1,0 +1,202 @@
+<html>
+<meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+<title>Health Data Collection Form</title>
+</head>
+<body>
+<div class="container">
+    <h1>Health Data Collection</h1>
+    <form action="submit.php" method="POST">
+        
+        <div class="input">
+            <label for="age">Age</label>
+            <input
+                    type="number"
+                    name="age"
+                    id="age"
+                    placeholder="age"
+                    autocomplete="off"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="ethnicity">Ethnicity:</label>
+            <select id="ethnicity" name="ethnicity" required>
+                <option value="African_American">African American</option>
+                <option value="Asian">Asian</option>
+                <option value="Caucasian">Caucasian</option>
+                <option value="Hispanic">Hispanic</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="blood_pressure">Blood Pressure</label>
+            <input
+                    type="text"
+                    name="blood_pressure"
+                    id="blood_pressure"
+                    placeholder="blood-pressure"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+            <label for="blood_glucose">Blood Glucose</label>
+            <input
+                    type="text"
+                    name="blood_glucose"
+                    id="blood_glucose"
+                    placeholder="blood-glucose"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+                <label for="serum_creatinine">Serum Creatinine:</label>
+            <input
+                    type="text"
+                    name="serum_creatinine"
+                    id="serum_creatinine"
+                    placeholder="serum_creatinine"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+                <label for="serum_creatinine">Serum Creatinine:</label>
+            <input
+                    type="text"
+                    name="serum_creatinine"
+                    id="serum_creatinine"
+                    placeholder="serum_creatinine"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+            <label for="egfr">eGFR:</label>
+            <input
+                    type="text"
+                    name="egfr"
+                    id="egfr"
+                    placeholder="egfr"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+            <label for="diabetes_status">Diabetes Status:</label>
+            <select id="diabetes_status" name="diabetes_status" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Hypertension_status">HyperTension Status:</label>
+            <select id="Hypertension_status" name="Hypertension_status" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Smoking_habits_Current_smoker">Smoking Habits (Current-smoker)</label>
+            <select id="Smoking_habits_Current_smoker" name="Smoking_habits_Current_smoker" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Smoking_habits_Former_smoker">Smoking Habits (Former-smoker)</label>
+            <select id="Smoking_habits_Former_smoker" name="Smoking_habits_Former_smokerr" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Smoking_habits_Never_smoked">Smoking Habits (NeverSmoked)</label>
+            <select id="Smoking_habits_Never_smoked" name="Smoking_habits_Never_smoked" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Smoking_habits_Never_smoked">Smoking Habits (Never Smoked)</label>
+            <select id="Smoking_habits_Never_smoked" name="Smoking_habits_Never_smoked" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        
+        <div class="input">
+            <label for="Alcohol_consumption_Yes">Alcohol Consumption</label>
+            <select id="Alcohol_consumption_Yes" name="Alcohol_consumption_Yes" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        
+        <div class="input">
+            <label for="Physical_activity_levels_Low">Physical Activity Levels (Low)</label>
+            <select id="Physical_activity_levels_Low" name="Physical_activity_levels_Low" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        
+        <div class="input">
+            <label for="Physical_activity_levels_Moderate">Physical Activity Levels (Moderate)</label>
+            <select id="Physical_activity_levels_Moderate" name="Physical_activity_levels_Moderate" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        
+        <div class="input">
+            <label for="Physical_activity_levels_High">Physical Activity Levels (High)</label>
+            <select id="Physical_activity_levels_High" name="Physical_activity_levels_High" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        
+        <div class="input">
+            <label for="Medication_history_Yes">Medication History</label>
+            <select id="Medication_history_Yes" name="Medication_history_Yes" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="Blood_urea_nitrogen">Blood Urea Nitrogen:</label>
+            <input
+                    type="text"
+                    name="Blood_urea_nitrogen"
+                    id="Blood_urea_nitrogen"
+                    placeholder="Blood_urea_nitrogen"
+            />
+            <small>Error message</small>
+        </div>
+        <div class="input">
+            <label for="Biometric_measurements">Biometric Measurements:</label>
+            <input
+                    type="text"
+                    name="Biometric_measurements"
+                    id="Biometric_measurements"
+                    placeholder="Biometric_measurements"
+            />
+            <small>Error message</small>
+        </div>
+        <button>Submit</button>
+    </form>
+</div>
+</body>
+
+<script src="index.js"></script>
+</html>
